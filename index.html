@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Traval to Explore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<!-- owl -->
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<!-- custom css -->
+	<link rel="stylesheet" type= "text/css" href="css/style.css">
+</head>
+<body>
+	<header class="header-area">
+		<div class="header-inner pt-3">
+		   	<div id="" class="nav-container mx-5">
+				<nav class="navbar navbar-expand-lg navbar-dark py-0">
+				
+					<a class="navbar-brand mb-3" href="index.html">
+					  	<img src="images/logo2.png" class="img-fluid logo">
+						<span class="text-white">Paper Fly</span>
+					</a>
+					<button id="navbtn" class="navbar-toggler" type="button" data-toggle="collapse">
+					    <span class="fas fa-bars text-white text-center"></span>
+					</button>
+
+					<div class="collapse navbar-collapse h-100" id="navbarSupportedContent">
+					    <ul class="navbar-nav mr-auto align-items-center h-100">
+					    	<li class="px-3 nav-item h-100 active">
+					        	<a class="nav-link h-100" href="index.html">Home</a>
+					    	</li>
+					      	<li class="px-3 nav-item h-100">
+					        	<a class="nav-link text-white h-100" href="destinations.html">Destinations</a>
+					      	</li>
+					      	<li class="px-3 nav-item dropdown h-100">
+					        <a class="nav-link text-white dropdown-toggle h-100" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+					          Book
+					        </a>
+					        <div class="dropdown-menu">
+					          <a class="dropdown-item" href="hotels.html">Hotels</a>
+					          <a class="dropdown-item" href="flights.html">Flights</a>
+					          <a class="dropdown-item" href="cars.html">Cars</a>
+					        </div>
+					      </li>
+					      	<!-- <li class="px-3 nav-item h-100">
+					        	<a class="nav-link text-white h-100" href="#">Events & things to do </a>
+					      	</li> -->
+					      	<li class="px-3 nav-item h-100">
+					        	<a class="nav-link text-white h-100" href="contact.html">About Us</a>
+					      	</li>
+				    	</ul>
+						<div class="d-flex align-items-center justify-content-end pl-0 mb-2 h-100">
+							<ul class="m-0 d-flex align-items-center h-100">
+								<li><a href="#" class="text-white mx-2">INR</a></li>
+								<li><a href="#" class="text-white ml-2"></a><img src="images/iconfinder_India.png" class="country mr-3">
+								</li>
+								<li><a href="#" class="text-white mx-2"><span class="px-2"><i class="fas fa-user-circle fa-lg"></i></span>My Account</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="res-nav p-3 bg-lightgrey">
+				<span id="closebtn" class="far fa-times-circle text-right d-block fa-lg text-secondary"></span>
+				<div class="row m-0 p-3">
+					<div class="col-12 d-flex justify-content-center">
+						<img src="images/logo2.png" class="logo2" alt="">
+					</div>
+					<div class="col-12 text-center">
+						<h2 class="text-secondary">Paper Fly</h2>
+					</div>
+				</div>
+				<div class="row m-0 p-3">
+					<div class="col-12">
+						<ul class="pl-3">
+							<li class="d-block py-2">
+					        	<a class="text-secondary h5 font-weight-normal" href="index.html">Home</a>
+							</li>
+							<li class="d-block py-2">
+					        	<a class="text-secondary h5 font-weight-normal" href="destinations.html">Destinations</a>
+					        </li>
+							<li class="d-block py-2">
+					        	<a class="text-secondary h5 font-weight-normal" href="hotels.html">Hotels</a>
+
+					        </li>
+							<li class="d-block py-2">
+					        	<a class="text-secondary h5 font-weight-normal" href="flights.html">Flights</a>
+
+					        </li>
+							<li class="d-block py-2">
+					        	<a class="text-secondary h5 font-weight-normal" href="cars.html">Cars</a>
+
+					        </li>
+							<li class="d-block py-2">
+					        	<a class="text-secondary h5 font-weight-normal" href="contact.html">Contact</a>
+					        </li>
+						</ul>
+						<div class="d-flex align-items-center justify-content-center pl-0 mb-2">
+							<ul class="m-0 d-flex align-items-center h-100">
+								<li><a href="#" class="text-secondary mx-2">INR</a></li>
+								<li><a href="#" class="text-secondary ml-2"></a><img src="images/iconfinder_India.png" class="country mr-3">
+								</li>
+								<li><a href="#" class="text-secondary mx-3"><span class="px-2"><i class="fas fa-user-circle fa-lg"></i></span>My Account</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="jumbotron jumbotron-fluid bg-transparent mt-5 text-white">
+				<div class="container">
+				    <h1 class="display-4">Start Your Journey</h1>
+				    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+				</div>
+			</div>
+
+<!-- booking form -->
+			<div class="booking">
+				<h3 class="text-center mb-3 text-white font-weight-normal">Book Your Best Trip</h3>
+				<div class="booking-pannel">
+					<ul class="bg-white row flex-wrap mb-0 mx-0" id="myTab" role="tablist">
+					  	<li class="nav-item col-md col-6 px-0">
+					    	<a class="nav-link active" id="hotels-tab" data-toggle="tab" href="#hotels" role="tab"><i class="fas fa-home px-1"></i>Hotels</a>
+					  	</li>
+						<li class="nav-item col-md col-6 px-0">
+						    <a class="nav-link" id="flights-tab" data-toggle="tab" href="#flights" role="tab"><i class="fas fa-plane px-1"></i>Flights</a>
+						</li>
+					  	<li class="nav-item col-md col-6 px-0">
+					    	<a class="nav-link" id="cars-tab" data-toggle="tab" href="#cars" role="tab"><i class="fas fa-car px-1"></i>Cars</a>
+					  	</li>
+					  	<li class="nav-item col-md col-6 px-0">
+					    	<a class="nav-link" id="destinations-tab" data-toggle="tab" href="#destination" role="tab"><i class="fas fa-map-marker-alt px-1"></i>Destinations</a>
+					  	</li>
+					</ul>
+					<div class="tab-content" id="myTabContent">
+
+					<!-- hotel tab -->
+					  	<div class="tab-pane fade show active  p-5" id="hotels" role="tabpanel">
+						  	<div class="row">
+						  		<input type="text" name="" class="placeicons col-12 px-3 py-1" placeholder="&#xf3c5;  Departure city or hotel">
+
+								<div class="col-12 p-0 mt-3">
+									<div class="row">
+										<div class="col">
+											<p class="text-white">Check-In</p>
+											<input type="date" class="w-100 px-3 py-1 card-title" name="">
+										</div>
+
+										<div class="col">
+											<p class="text-white">Check-Out</p>
+											<input type="date" class="w-100 px-3 py-1 card-title" name="">
+										</div>
+									</div>
+								</div>
+
+								<div class="col-12 p-0 mt-3">
+									<div class="row">
+										<div class="col-sm col-12">
+							                    <div class="select1_wrapper clearfix">
+							                      <label class="text-white">Adult(18+)</label>
+							                      <div class="select1_inner">
+							                        <select class="select2 select select3" style="height: 100%" tabindex="-1" aria-hidden="true">
+							                          <option value="1">1</option>
+							                          <option value="2">2</option>
+							                          <option value="3">3</option>
+							                          <option value="4">4</option>
+							                          <option value="5">5</option>
+							                          <option value="6">6</option>
+							                          <option value="7">7</option>
+							                          <option value="8">8</option>
+							                        </select>
+							                      </div>
+							                    </div>
+										</div>
+
+										<div class="col-sm col-12">
+											<div class="select1_wrapper clearfix">
+							                      <label class="text-white">Children(5-17)</label>
+							                      <div class="select1_inner">
+							                        <select class="select2 select select3" style="height: 100%" tabindex="-1" aria-hidden="true">
+							                          <option value="1">0</option>
+							                          <option value="1">1</option>
+							                          <option value="2">2</option>
+							                          <option value="3">3</option>
+							                          <option value="3">4</option>
+							                        </select>
+							                      </div>
+							                    </div>
+										</div>
+
+										<div class="col-sm col-12">
+											<div class="select1_wrapper clearfix">
+							                      <label class="text-white">Class</label>
+							                      <div class="select1_inner">
+							                        <select class="select2 select select3" style="height: 100%" tabindex="-1" aria-hidden="true">
+							                          <option value="1">Deluxe</option>
+							                          <option value="2">Grand Deluxe Room</option>
+							                          <option value="3">One Bedroom Suite</option>
+							                          <option value="4">Junior Suite Family</option>
+							                          <option value="5">Two Bedroom Family Suite</option>
+							                          <option value="6">Two Bedroom Suite</option>
+							                          <option value="7">Executive Suite</option>
+							                        </select>
+							                      </div>
+							                    </div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-12">
+									<div class="button1_wrapper text-center d-flex justify-content-center">
+				                      <button type="submit" class="btn-default btn-form1-submit">Search</button>
+				                    </div>
+								</div>
+								<!-- <button class="mt-4 py-1 px-5" name="">submit</button> -->
+						  	</div>
+					  	</div>
+					<!-- flights tab -->
+					  	<div class="tab-pane fade" id="flights" role="tabpanel">
+					  		<form action="" class="form1 py-5">
+				                <div class="row">
+				                  <div class="col-sm-5 col-md-3">
+				                    <div class="select1_wrapper">
+				                      <label>Flying from:</label>
+				                      <div class="select1_inner">
+				                        <select class="select2 select select2-hidden-accessible" style="height: 100%" tabindex="-1">
+				                          <option value="1">City or Airport</option>
+				                          <option value="2">Delhi</option>
+				                          <option value="3">Mumbai</option>
+				                          <option value="4">Kolkata</option>
+				                          <option value="5">Chennai</option>
+				                          <option value="6">Kerala</option>
+				                          <option value="7">Dehradun</option>
+				                          <option value="8">Pune</option>
+				                        </select>
+				                      </div>
+				                    </div>
+				                  </div>
+				                  <div class="col-sm-5 col-md-3">
+				                    <div class="select1_wrapper">
+				                      <label>To:</label>
+				                      <div class="select1_inner">
+				                        <select class="select2 select select2-hidden-accessible" style="height: 100%;" tabindex="-1">
+				                          <option value="1">City or Airport</option>
+				                          <option value="2">Europe</option>
+				                          <option value="3">Spain</option>
+				                          <option value="4">Norway</option>
+				                          <option value="5">Canada</option>
+				                          <option value="6">Australia</option>
+				                          <option value="7">Italy</option>
+				                          <option value="8">london</option>
+				                          <option value="9">Texas</option>
+				                        </select>
+				                      </div>
+				                    </div>
+				                  </div>
+				                  <div class="col-sm-4 col-md-2">
+				                    <div class="input1_wrapper">
+				                      <label>Departing:</label>
+				                      <div class="input1_inner">
+				                        <input type="text" class="input datepicker hasDatepicker" placeholder="Mm/Dd/Yy" id="">
+				                      </div>
+				                    </div>
+				                  </div>
+				                  <div class="col-sm-4 col-md-2">
+				                    <div class="input1_wrapper">
+				                      <label>Returning:</label>
+				                      <div class="input1_inner">
+				                        <input type="text" class="input datepicker hasDatepicker" placeholder="Mm/Dd/Yy" id="">
+				                      </div>
+				                    </div>
+				                  </div>
+				                  <div class="col-sm-3 col-md-1">
+				                    <div class="select1_wrapper">
+				                      <label>Adult:</label>
+				                      <div class="select1_inner">
+				                        <select class="select2 select select3 select2-hidden-accessible" style="height: 100%" tabindex="-1" aria-hidden="true">
+				                          <option value="1">1</option>
+				                          <option value="2">2</option>
+				                          <option value="3">3</option>
+				                          <option value="4">4</option>
+				                          <option value="5">5</option>
+				                          <option value="6">6</option>
+				                          <option value="7">7</option>
+				                          <option value="8">8</option>
+				                        </select>
+				                      </div>
+				                    </div>
+				                  </div>
+				                  <div class="col-sm-3 col-md-1">
+				                    <div class="select1_wrapper">
+				                      <label>Child:</label>
+				                      <div class="select1_inner">
+				                        <select class="select2 select select3 select2-hidden-accessible" style="height: 100%" tabindex="-1" aria-hidden="true">
+				                          <option value="1">1</option>
+				                          <option value="2">2</option>
+				                          <option value="3">3</option>
+				                          <option value="4">4</option>
+				                          <option value="5">5</option>
+				                          <option value="6">6</option>
+				                          <option value="7">7</option>
+				                          <option value="8">8</option>
+				                        </select>
+				                      </div>
+				                    </div>
+				                  </div>
+				                  <div class="col-12">
+				                    <div class="button1_wrapper">
+				                      <button type="submit" class="btn-default btn-form1-submit">Search</button>
+				                    </div>
+				                  </div>
+				                </div>
+				            </form>
+					  	</div>
+					  	<div class="tab-pane fade" id="cars" role="tabpanel">
+					  		<form action="" class="form1 py-5">
+				                <div class="row">
+					                <div class="col-sm-5 col-md-3 py-2">
+					                    <div class="select1_wrapper">
+				                      		<label>Country:</label>
+					                     	<div class="select1_inner">
+						                        <select class="select2 select select2-hidden-accessible" style="height: 100%" tabindex="-1">
+						                          <option value="1">City or Airport</option>
+						                          <option value="2">Alaska</option>
+						                          <option value="3">Bahamas</option>
+						                          <option value="4">Bermuda</option>
+						                          <option value="5">Canada</option>
+						                          <option value="6">Caribbean</option>
+						                          <option value="7">Europe</option>
+						                          <option value="8">Hawaii</option>
+						                        </select>
+					                      	</div>
+					                    </div>
+					                </div>
+
+				                  	<div class="col-sm-5 col-md-3 py-2">
+					                    <div class="select1_wrapper">
+					                      <label>City:</label>
+					                      <div class="select1_inner">
+					                        <select class="select2 select select2-hidden-accessible" style="height: 100%;" tabindex="-1" aria-hidden="true">
+					                          <option value="1">City or Airport</option>
+				                          <option value="2">Europe</option>
+				                          <option value="3">Spain</option>
+				                          <option value="4">Norway</option>
+				                          <option value="5">Canada</option>
+				                          <option value="6">Australia</option>
+				                          <option value="7">Italy</option>
+				                          <option value="8">london</option>
+				                          <option value="9">Texas</option>
+					                        </select>
+					                      </div>
+					                    </div>
+				                  	</div>
+
+				                  	<div class="col-sm-4 col-md-2 py-2">
+					                    <div class="select1_wrapper">
+					                      <label>Location:</label>
+					                      <div class="select1_inner">
+					                        <select class="select2 select select2-hidden-accessible" style="height: 100%;" tabindex="-1" aria-hidden="true">
+					                          <option value="1">Please Select</option>
+				                          <option value="2">Europe</option>
+				                          <option value="3">Spain</option>
+				                          <option value="4">Norway</option>
+				                          <option value="5">Canada</option>
+				                          <option value="6">Australia</option>
+				                          <option value="7">Italy</option>
+				                          <option value="8">london</option>
+				                          <option value="9">Texas</option>
+					                        </select>
+					                      </div>
+					                    </div>
+				                  	</div>
+				                  	<div class="col-sm-4 col-md-2 py-2">
+					                    <div class="input1_wrapper">
+					                      <label>Pick up Date:</label>
+					                      <div class="input1_inner">
+					                        <input type="text" class="input datepicker hasDatepicker" placeholder="Mm/Dd/Yy" id="">
+					                      </div>
+					                    </div>
+				                  	</div>
+				                  	<div class="col-sm-4 col-md-2 py-2">
+					                    <div class="input1_wrapper">
+					                      <label>Drop off Date:</label>
+					                      <div class="input1_inner">
+					                        <input type="text" class="input datepicker hasDatepicker" placeholder="Mm/Dd/Yy" id="">
+					                      </div>
+					                    </div>
+				                  	</div>
+				                  	<div class="col-12">
+					                    <div class="button1_wrapper">
+					                      <button type="submit" class="btn-default btn-form1-submit">Search</button>
+					                    </div>
+				                  	</div>
+				                </div>
+				            </form>
+					  	</div>
+					  	<div class="tab-pane fade" id="destination" role="tabpanel">
+					  		<form action="" class="form1 py-5">
+				                <div class="row">
+					                <div class="col-sm-6 col-md-4 py-2">
+					                    <div class="select1_wrapper">
+				                      		<label>Country:</label>
+					                     	<div class="select1_inner">
+						                        <select class="select2 select select2-hidden-accessible" style="height: 100%" tabindex="-1">
+						                          <option value="1">City or Airport</option>
+						                          <option value="2">Alaska</option>
+						                          <option value="3">Bahamas</option>
+						                          <option value="4">Bermuda</option>
+						                          <option value="5">Canada</option>
+						                          <option value="6">Caribbean</option>
+						                          <option value="7">Europe</option>
+						                          <option value="8">Hawaii</option>
+						                        </select>
+					                      	</div>
+					                    </div>
+					                </div>
+
+				                  	<div class="col-sm-6 col-md-3 py-2">
+					                    <div class="select1_wrapper">
+					                      <label>City:</label>
+					                      <div class="select1_inner">
+					                        <select class="select2 select select2-hidden-accessible" style="height: 100%;" tabindex="-1" aria-hidden="true">
+					                          <option value="1">City or Airport</option>
+				                          <option value="2">Europe</option>
+				                          <option value="3">Spain</option>
+				                          <option value="4">Norway</option>
+				                          <option value="5">Canada</option>
+				                          <option value="6">Australia</option>
+				                          <option value="7">Italy</option>
+				                          <option value="8">london</option>
+				                          <option value="9">Texas</option>
+					                        </select>
+					                      </div>
+					                    </div>
+				                  	</div>
+
+				                  	<div class="col-sm-4 col-md-3 py-2">
+					                    <div class="select1_wrapper">
+					                      <label>Location:</label>
+					                      <div class="select1_inner">
+					                        <select class="select2 select select2-hidden-accessible" style="height: 100%;" tabindex="-1" aria-hidden="true">
+					                          <option value="1">Please Select</option>
+				                          <option value="2">Europe</option>
+				                          <option value="3">Spain</option>
+				                          <option value="4">Norway</option>
+				                          <option value="5">Canada</option>
+				                          <option value="6">Australia</option>
+				                          <option value="7">Italy</option>
+				                          <option value="8">london</option>
+				                          <option value="9">Texas</option>
+					                        </select>
+					                      </div>
+					                    </div>
+				                  	</div>
+				                  	<div class="col-sm-4 col-md-2 py-2">
+					                    <div class="input1_wrapper">
+					                      <label>Duration:</label>
+					                      <div class="input1_inner">
+					                        <input type="text" class="input datepicker hasDatepicker" placeholder="Days/Months" id="">
+					                      </div>
+					                    </div>
+				                  	</div>
+				                  	<div class="col-12 py-2">
+					                    <div class="button1_wrapper">
+					                      <button type="submit" class="btn-default btn-form1-submit">Search</button>
+					                    </div>
+				                  	</div>
+				                </div>
+				            </form>
+					  	</div>
+					</div>
+				</div>
+			</div>
+
+<!-- header slider -->
+			<div id="placeslider" class="placeslider container-fluid mt-5 p-0">
+				<div class="row">
+					<div class="col-12">
+		          		<div class="row">
+				            <div class="item col p-0">
+				             	<img src="images/dubai.jpg" class="img-fluid">
+				            </div>
+				            <div class="item col p-0">
+				             	<img src="images/oia.jpg" class="img-fluid">
+				            </div>
+				            <div class="item col p-0">
+				             	<img src="images/polynesia.jpg" class="img-fluid">
+				            </div>
+				            <div class="item col p-0">
+				             	<img src="images/port.jpg" class="img-fluid">
+				            </div>
+				            <div class="item col p-0">
+				             	<img src="images/river.jpg" class="img-fluid">
+				            </div>
+				            <div class="item col p-0">
+				             	<img src="images/venice.jpg" class="img-fluid">
+				            </div>
+				            <div class="item col p-0">
+				             	<img src="images/kristiansund.jpg" class="img-fluid">
+				            </div>
+				            <div class="item col p-0">
+				             	<img src="images/baltimore.jpg" class="img-fluid">
+				            </div>
+				            <div class="item col p-0">
+				             	<img src="images/bridge.jpg" class="img-fluid">
+				            </div>
+				            <div class="item col p-0">
+				             	<img src="images/beach.jpg" class="img-fluid">
+				             </div>
+				            <div class="item col p-0">
+				             	<img src="images/camping.jpg" class="img-fluid">
+				             </div>
+				            <div class="item col p-0">
+				             	<img src="images/road.jpg" class="img-fluid">
+				            </div>
+		          		</div>
+		          	</div>
+	         	</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="after-header bg-light shadow">
+
+		<div class="container-fluid benifits px-5 py-4">
+			<div class="row">
+				<div class="col-md benifits-inner px-5 py-2">
+					<h4 class="font-weight-normal">A UNIQUE SELECTION OF HOTELS</h4>
+					<p class=" font-weight-light">Our experts select only the best hotels around the world. from a boutique hotel in paris to a luxury resort in thailand</p>
+				</div>
+				<div class="col-md benifits-inner px-5 py-2">
+					<h4 class="font-weight-normal">A GOOD PRICE WITH MORE</h4>
+					<p class=" font-weight-light">Becoming member of our club will give you access to exclusive  benifits during your stays.</p>
+				</div>
+				<div class="col-md benifits-inner px-5 py-2">
+					<h4 class="font-weight-normal">A TAILOR MADE SERVICE</h4>
+					<P class=" font-weight-light">Our agents are available 7 days a week to assist you creating the possible stay</P>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<main class="container-fluid px-0 pt-5">
+		<section class="container special-offers px-0 py-5">
+			<div class="text-center pb-4">
+				<h2 class="clr-cyan">Special Offers</h2>
+				<p class="text-muted">Best 2019 packages where people love to stay.</p>
+			</div>
+			<div class="row pb-3 p-2">
+				<div class="col-md col-6 py-2">
+					<div class="card">
+						<div>
+							<img src="images/spain.jpg" class="card-img-top" alt="...">
+						</div>
+						<div class="card-body  bg-light">
+							    <h5 class="card-title">Spain</h5>
+							    <div class="row m-0">
+							    	<div class="col-sm p-0">
+							    		<h5 class="m-0 text-danger">&#8377;18999</h5>
+							    		<span class="text-muted small align-top">avg/person</span>
+							    	</div>
+							    	<div class="col-sm pr-0 pt-sm-0 pt-2 pl-sm-4 pl-0 text-sm-right text-left">
+									    <div class="button1_wrapper m-0">
+					                      <button type="submit" class="btn btn-sm bg-cyan text-white m-0">DETAILS</button>
+					                  	</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>				
+				<div class="col-md col-6 py-2">
+					<div class="card">
+						<div>
+						<img src="images/florence.jpg" class="card-img-top" alt="...">
+						</div>
+						<div class="card-body  bg-light">
+							    <h5 class="card-title">Florence</h5>
+							    <div class="row m-0">
+							    	<div class="col-sm p-0">
+							    		<h5 class="m-0 text-danger">&#8377;20999</h5>
+							    		<span class="text-muted small align-top">avg/person</span>
+							    	</div>
+							    	<div class="col-sm pr-0 pt-sm-0 pt-2 pl-sm-4 pl-0 text-sm-right text-left">
+									    <div class="button1_wrapper m-0">
+					                      <button type="submit" class="btn btn-sm bg-cyan text-white m-0">DETAILS</button>
+					                  	</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div> 		
+				<div class="col-md col-6 py-2">
+					<div class="card">
+						<div>
+						<img src="images/norway.jpg" class="card-img-top" alt="...">
+						</div>
+						<div class="card-body  bg-light">
+							    <h5 class="card-title">Norway</h5>
+							    <div class="row m-0">
+							    	<div class="col-sm p-0">
+							    		<h5 class="m-0 text-danger">&#8377;16999</h5>
+							    		<span class="text-muted small align-top">avg/person</span>
+							    	</div>
+							    	<div class="col-sm pr-0 pt-sm-0 pt-2 pl-sm-4 pl-0 text-sm-right text-left">
+									    <div class="button1_wrapper m-0">
+					                      <button type="submit" class="btn btn-sm bg-cyan text-white m-0">DETAILS</button>
+					                  	</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>				
+				<div class="col-md col-6 py-2">
+					<div class="card">
+						<div>
+							
+						<img src="images/texas.png" class="card-img-top" alt="...">
+						</div>
+						<div class="card-body bg-light">
+							<h5 class="card-title">Texas</h5>
+							<div class="row m-0">
+							    	<div class="col-sm p-0">
+							    		<h5 class="m-0 text-danger">&#8377;17999</h5>
+							    		<span class="text-muted small align-top">avg/person</span>
+							    	</div>
+							    	<div class="col-sm pr-0 pt-sm-0 pt-2 pl-sm-4 pl-0 text-sm-right text-left">
+									    <div class="button1_wrapper m-0">
+					                      <button type="submit" class="btn btn-sm bg-cyan text-white m-0">DETAILS</button>
+					                  	</div>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</section>
+
+		<hr class="line">
+
+		<section class="container-fluid top-destinations py-5 px-0">
+			<div class="container py-md-5 ">				
+				<div class="row px-2 px-sm-0">
+					<div class="col-lg col-sm-4 col-6 p-0">
+						<img src="images/spain.jpg" class="img-fluid">
+						<div class="hover-div"><p>Spain</p></div>
+					</div>				
+					<div class="col-lg col-sm-4 col-6 p-0">
+						<img src="images/europe.jpg" class="img-fluid">
+						<div class="hover-div"><p>Europe</p></div>
+					</div> 		
+					<div class="col-lg col-sm-4 col-6 p-0 d-sm-block d-none">
+						<img src="images/northern-italy.jpg" class="img-fluid">
+						<div class="hover-div"><p>Italy</p></div>
+					</div>
+					<div class="col-lg col-sm-4 col-6 p-0 d-lg-block d-none">
+						<img src="images/texas.png" class="img-fluid">
+						<div class="hover-div"><p>Texas</p></div>
+					</div>				
+				</div>
+				<div class="row align-items-center bg-lightgrey justify-content-center px-2 px-sm-0 py-4 py-sm-0">
+					<div class="col-lg col-sm-4 col-6 p-0 d-sm-block d-none">
+						<img src="images/colombia.jpg" class="img-fluid">
+						<div class="hover-div"><p>Colombia</p></div>
+					</div>
+					<div class="col-lg col-sm-4 col-6 p-0 text-center">
+						<h3 class="clr-cyan">Top Destinations</h3>
+						<a href="destinations.html" class="btn btn-sm btn-outline-primary mt-2">All destinations</a>
+					</div>			
+					<div class="col-lg col-sm-4 col-6 p-0 d-sm-block d-none">
+						<img src="images/antalya.jpg" class="img-fluid">
+						<div class="hover-div"><p>Antalya</p></div>
+					</div>				
+				</div>
+				<div class="row px-2 px-sm-0">
+					<div class="col-lg col-sm-4 col-6 p-0">
+						<img src="images/canada.jpg" class="img-fluid">
+						<div class="hover-div"><p>Canada</p></div>
+					</div>				
+					<div class="col-lg col-sm-4 col-6 p-0">
+						<img src="images/milennials.jpg" class="img-fluid">
+						<div class="hover-div"><p>Millennials</p></div>
+					</div> 		
+					<div class="col-lg col-sm-4 col-6 p-0 d-sm-block d-none">
+						<img src="images/havana.jpg" class="img-fluid">
+						<div class="hover-div"><p>Havana</p></div>
+					</div>				
+					<div class="col-lg col-sm-4 col-6 p-0 d-lg-block d-none">
+						<img src="images/greece.jpg" class="img-fluid">
+						<div class="hover-div"><p>greece</p></div>
+					</div>				
+				</div>
+			</div>
+		</section>
+
+		<section class="great-escape container-fluid py-5 px-0 bg-lightgrey">
+			<div class="container">
+				<div class="row">
+					<div class="col text-center pb-4 position-relative">						
+						<h3 class="clr-cyan">DISCOVER THE GREAT ESCAPES</h3>
+						<p class="btn btn-sm btn-outline-primary"><a href="hotels.html">All escapes</a></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col px-0">
+						<div><img src="images/night-life.jpg" class="img-fluid"></div>
+						<p class="text-center py-3 m-0">NIGHT LIFE</p>
+					</div>
+					<div class="col px-0">
+						<div><img src="images/cabin-hotels.jpg" class="img-fluid"></div>
+						<p class="text-center py-3 m-0">CABIN HOTELS</p>
+					</div>
+					<div class="col px-0">
+						<div><img src="images/hb1.jpg" class="img-fluid"></div>
+						<p class="text-center py-3 m-0">SPA HOTELS</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col px-0">
+						<div><img src="images/private-beaches.jpg" class="img-fluid"></div>
+						<p class="text-center py-3 m-0">PRIVATE BEACHES</p>
+					</div>
+					<div class="col px-0">
+						<div><img src="images/romantic-hotels.jpg" class="img-fluid"></div>
+						<p class="text-center py-3 m-0">ROMANTIC HOTELS</p>
+					</div>
+					<div class="col px-0">
+						<div><img src="images/fashion-hotels.png" class="img-fluid"></div>
+						<p class="text-center py-3 m-0">FASHION HOTELS</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="hotels container-fluid py-5 text-center p-0">
+			<h3 class="clr-cyan">DISCOVER THE NEW HOTELS OF OUR SELECTION</h3>
+			<p class="text-muted">What's new on Birdish?</p>
+			<div class="container">
+				<div class="row position-relative">
+					<div class="col hotel-slider p-0">
+						<div ><!-- class="left" -->
+							<img src="images/hb2.jpg" class="img-fluid">	
+						</div>					
+					</div>
+					<div class="col hotel-slider p-0">
+						<div><!--  class="right" -->
+			
+							<img src="images/hb3.jpg" class="img-fluid">			
+						</div>					
+					</div>
+
+					<div class="hotels-text d-flex justify-content-center align-items-center">
+						<div class="bg-white py-sm-5 px-1 px-md-4 text-center">
+							<span class="h5 m-0">*******</span>
+							<h4 >CASA DE LA FLORA</h4>
+							<p class="m-0">Khao Lake, Thailand</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="choose-us container-fluid py-5 bg-lightgrey">
+			<div class="container">
+		        <div class="row justify-content-start">
+		          	<div class="col-md-5 heading-section fadeInUp ">
+			          	<span class="text-muted">Best Directory Website</span>
+			            <h2 class="mb-4 py-3 clr-cyan"><strong>Why</strong> Choose Us?</h2>
+			            <p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+			            <p class="text-muted">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
+			            <p class="text-muted"><a href="#" class="btn btn-outline-primary mt-4 px-4 py-2">Read more</a></p>
+		          	</div>
+					<div class="col-md-1"></div>
+					
+					<div class="col-md-6 overflow-hidden">
+						<span class="text-muted">Testimony</span>
+						<h2 class="mb-4 py-3 clr-cyan"><strong>Our</strong> Guests Says</h2>
+						<div class=" testimony-slider overflow-hidden">
+							<div id="carouselExampleControls" class="carousel slide bg-white" data-ride="carousel">
+							  <div class="carousel-inner py-5 px-2">
+							    <div class="carousel-item active">
+							    	<div class="row flex-wrap">
+							    		<div class="col-4"> 
+							    			<div class="user-img user-img-1 mb-5 ml-2">
+								    			<span class="quote d-flex align-items-center justify-content-center">
+							                      <i class="fas fa-quote-left text-white"></i>
+							                    </span>
+						                	</div>
+							    		</div>
+							    		<div class="col-7">
+							    			<div>
+							    				<p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+							    				<p class="text-right">Ramen</p>
+							    			</div>
+							    			
+							    		</div>
+							    	</div>
+							    </div>
+							    <div class="carousel-item">
+							    	<div class="row">
+							    		<div class="col-4">
+							    			<div class="user-img user-img-2 mb-5 ml-2">
+								    			<span class="quote d-flex align-items-center justify-content-center">
+							                      <i class="fas fa-quote-left text-white"></i>
+							                    </span>
+						                	</div>
+							    		</div>
+							    		<div class="col-7">
+							    			<div>
+							    				<p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+							    				<p class="text-right">Ramen</p>
+							    			</div>							    			
+							    		</div>
+							    	</div>
+							    </div>
+							    <div class="carousel-item">
+							    	<div class="row">
+							    		<div class="col-4">
+							    			<div class="user-img user-img-3 mb-5 ml-2">
+								    			<span class="quote d-flex align-items-center justify-content-center">
+							                      <i class="fas fa-quote-left text-white"></i>
+							                    </span>
+						                	</div>
+							    		</div>
+							    		<div class="col-7">
+							    			<div>
+							    				<p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+							    				<p class="text-right">Ramen</p>
+							    			</div>							    			
+							    		</div>
+							    	</div>
+							    </div>
+							  </div>
+							  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+							    <span class="carousel-control-prev-icon"></span>
+							  </a>
+							  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+							    <span class="carousel-control-next-icon"></span>
+							  </a>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+      		</div>
+		</section>
+	</main>
+
+	<div class="py-4 border-top border-bottom text-center">
+		<span id="top" class="d-inline-block text-muted">
+			<i class="fas fa-chevron-up fa-lg text-dark"></i><br>Top
+		</span>
+	</div>
+
+
+
+<!-- footer area -->
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col"></div>
+		</div>
+		<div class="row bg-lightgrey py-5">
+			<div class="container">
+	        <div class="row mb-5">
+	          <div class="col-md">
+	            <div class="mb-4">
+	            	<span class="pr-5 mr-5 d-block"><img src="images/logo2.png" class="img-fluid pr-5 logo2"></span>
+	              <h3 class="clr-cyan">Paper Fly</h3>
+	              <p class="text-muted">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+	            </div>
+	          </div>
+	          <div class="col-md">
+	            <div class="mb-4 ml-md-4">
+	              <h3 class="clr-cyan">Navingations</h3>
+	              <ul class="list-group list-group-flush">
+	                <li class="list-group-item bg-transparent py-1"><a href="index.html" class="py-2 d-block text-muted">Home</a></li>
+	                <li class="list-group-item bg-transparent py-1"><a href="destinations.html" class="py-2 d-block text-muted">Destinations</a></li>
+	                <li class="list-group-item bg-transparent py-1"><a href="hotels.html" class="py-2 d-block text-muted">Hotels</a></li>
+	                <li class="list-group-item bg-transparent py-1"><a href="flights.html" class="py-2 d-block text-muted">Flights</a></li>
+	                <li class="list-group-item bg-transparent py-1"><a href="cars.html" class="py-2 d-block text-muted">Cars</a></li>
+	                <li class="list-group-item bg-transparent py-1"><a href="contact.html" class="py-2 d-block text-muted">About Us</a></li>
+	                <li class="list-group-item bg-transparent py-1"><a href="#" class="py-2 d-block text-muted">Privacy and Policy</a></li>
+	                <li class="list-group-item bg-transparent py-1"><a href="#" class="py-2 d-block text-muted">Refund policy</a></li>
+	              </ul>
+	            </div>
+	          </div>
+	          <div class="col-md">
+	             <div class="mb-4">
+	              <h3 class="clr-cyan">Experience</h3>
+	              <ul class="list-group list-group-flush">
+	                <li class="list-group-item bg-transparent py-1"><a href="#" class="py-2 d-block text-muted">Beach</a></li>
+	                <li class="list-group-item bg-transparent py-1"><a href="#" class="py-2 d-block text-muted">Adventure</a></li>
+	                <li class="list-group-item bg-transparent py-1"><a href="#" class="py-2 d-block text-muted">Wildlife</a></li>
+	                <li class="list-group-item bg-transparent py-1"><a href="#" class="py-2 d-block text-muted">Honeymoon</a></li>
+	                <li class="list-group-item bg-transparent py-1"><a href="#" class="py-2 d-block text-muted">Nature</a></li>
+	                <li class="list-group-item bg-transparent py-1"><a href="#" class="py-2 d-block text-muted">Party</a></li>
+	              </ul>
+	            </div>
+	          </div>
+	          <div class="col-md">
+	            <div class="mb-4">
+	            	<h3 class="clr-cyan">Have a Questions?</h3>
+	            	<div class="mb-3">
+		              <ul class="list-group list-group-flush">
+		                <li class="list-group-item bg-transparent text-muted py-1"><span class="icon icon-map-marker"> </span><span class="text">763, Sukhdev Nagar Kotla, South Ex, New Delhi, India </span></li>
+		                <li class="list-group-item bg-transparent py-1"><a href="#" class=" text-muted"><span class="icon icon-phone"></span><span class="text"><a href="tel:8477012350" class="text-muted">+91-8477012350</a></span></a></li>
+		                <li class="list-group-item bg-transparent py-1"><a href=	 "mail-to:itssonubhatt@gmail.com" class=" text-muted"><span class="icon icon-envelope"></span><span class="text">itssonubhatt@gmail.com</span></a></li>
+		              </ul>
+		            </div>
+	            </div>
+	          </div>
+	        </div>
+	        <div class="row">
+		        <div class="col-md-12 text-center">
+
+		        	<p class="text-muted">Copyright ©2019 All rights reserved | This template is made with <i class="fas fa-heart clr-cyan"></i> by <span class="clr-cyan">@itsbhatt</span></p>
+		        </div>
+	        </div>
+	      </div>
+		</div>
+	</footer>
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/owl.carousel.js"></script>
+	<script type="text/javascript" src="js/travel.js"></script>
+</body>
+</html>
